@@ -161,6 +161,11 @@
     color: white;
     padding: 3px 15px 3px 15px;
     margin: 0 auto;
+
+    &_white {
+      background-color: #fff;
+      color: #000;
+    }
   }
   
   .title {
@@ -171,6 +176,10 @@
     text-transform: uppercase;
     margin-top: 38px;
     margin-bottom: 0;
+
+    &_white {
+      color: #ffffff;
+    }
   }
 
   .subtitle {
@@ -178,6 +187,10 @@
     line-height: 21px;
     color: #222222;
     text-align: center;
+
+    &_white {
+      color: #ffffff;
+    }
   }
   
   .icons {
@@ -281,5 +294,36 @@
         border-radius: 100%;
         padding: 6px;
       }
+    }
+  }
+
+  .choice {
+    position: relative;
+    min-height: 895px;
+    padding: 57px 0 138px 0;
+    
+    &_img {
+      position: relative;
+      display: block;
+      margin: 56px auto 0 auto;
+      z-index: -1;
+    }
+
+    &_descr {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #222222;
+      text-align: center;
+    }
+
+    .black {
+      position: absolute ;
+      top: 0;
+      left: 0;
+      height: 499px;
+      width: 100%;
+      background-color: #070716;
+      z-index: -1;
     }
   }

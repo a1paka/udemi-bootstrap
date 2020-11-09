@@ -171,6 +171,11 @@ nav {
   margin: 0 auto;
 }
 
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
 .title {
   font-size: 38px;
   font-weight: 700;
@@ -181,11 +186,19 @@ nav {
   margin-bottom: 0;
 }
 
+.title_white {
+  color: #ffffff;
+}
+
 .subtitle {
   font-size: 17px;
   line-height: 21px;
   color: #222222;
   text-align: center;
+}
+
+.subtitle_white {
+  color: #ffffff;
 }
 
 .icons {
@@ -314,5 +327,36 @@ nav {
   margin: 0 auto;
   border-radius: 100%;
   padding: 6px;
+}
+
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+}
+
+.choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: -1;
+}
+
+.choice_descr {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #222222;
+  text-align: center;
+}
+
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
