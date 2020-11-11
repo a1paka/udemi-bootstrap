@@ -173,6 +173,7 @@ $second-color: #ff5656;
     color: white;
     padding: 3px 15px 3px 15px;
     margin: 0 auto;
+    text-align: center;
 
     &_white {
       background-color: #fff;
@@ -424,9 +425,33 @@ $second-color: #ff5656;
       .require_list {
         li {
           &::before {
-            background: url("../img/check_pink.svg") center (center / cover) no-repeat
+            background: url("../img/check_pink.svg") center (center / cover) no-repeat;
           }
         }
+      }
+    }
+  }
+
+  .world {
+    position: relative;
+    background-image: url("../img/world.png");
+    min-height: 717px;
+    padding: 49px 0;
+
+    &_link {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+		  bottom: 49px;
+		  text-align: center;
+      font-size: 15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #1fbad6;
+
+      &:hover {
+        text-decoration: none;
+        color: #fff;
       }
     }
   }
