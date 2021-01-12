@@ -94,6 +94,10 @@ nav {
       @include btn_hover;
     }
   }
+
+  .hamburger {
+    display: none;
+  }
   
   .promo {
     min-height: 800px;
@@ -121,7 +125,7 @@ nav {
       margin-bottom: 0;
     }
   
-    &_deskr {
+    &_descr {
       color: #ffffff;
       font-size: 18px;
       font-weight: 400;
@@ -516,4 +520,7 @@ nav {
 
   .footer_downloads {
     margin-top: 29px;
+  }
+  .xs-visible {
+    display: none;
   }
